@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Bootstrap</title>
+    <!-- this is custom css -->
+    <link rel="stylesheet" href="./Style.css">
+    <!--in bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <div class="bg-danger text-center">
+        <h1>Welcome to Bootstrap</h1>
+    <p>This is a simple introduction to Bootstrap framework.</p>
+    </div>  
+    <div class="container-fluid bg-primary">
+        <h2>My First Bootstrap Page</h2>
+        <h1>This is some text</h1>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./Images/Lovepreneurship Nation App Icon 1.png" alt=""
+                    class="img-fluid" style="width:65px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Business Training</a></li>
+                            <li><a class="dropdown-item" href="#">Technical Support Services</a></li>
+                            <li><a class="dropdown-item" href="#">Research & Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mentorship</a></li>
+                            <li><a class="dropdown-item" href="#">Grant Making</a></li>
+                            <li><a class="dropdown-item" href="#">Investments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success search" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container my-5">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/Lovepreneurship Blog.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/CHIP Flyers.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/_MG_6692.JPG" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="container" id="about-us">
+        <div class="row justify-content-center align-items-center mx-auto">
+            <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="500">
+                <h2>About Us</h2>
+                <p>We are a team of passionate individuals dedicated to providing top-notch services to our clients.
+                    Our mission is to empower businesses and individuals through innovative solutions and exceptional
+                    support. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique illo unde blanditiis
+                    repellendus laudantium. Temporibus, maxime velit deserunt fuga officia iusto quisquam neque ipsum
+                    optio nostrum esse dignissimos atque nulla. Architecto laudantium assumenda eaque nesciunt deserunt
+                    repudiandae nam amet ea, illum quasi unde accusantium consequuntur debitis reprehenderit dolor
+                    temporibus eius fugit natus ratione? Provident voluptatum, maxime alias quis labore magni eaque
+                    minima voluptatem nobis harum officiis enim beatae, laudantium eius vitae modi sapiente aliquam
+                    velit porro consequuntur! Quibusdam rerum nesciunt aliquid minima quas, quidem ratione rem impedit
+                    voluptatem distinctio ipsa veniam quis dicta possimus porro doloribus cupiditate, placeat aperiam
+                    laudantium?</p>
+                <p>With years of experience in the industry, we pride ourselves on our commitment to excellence and
+                    customer satisfaction. Join us on our journey to make a difference! Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Ea distinctio voluptatem atque dolorem tempora vero sit quas aperiam
+                    consequuntur nemo est iste, dolore magni vel, perferendis perspiciatis a blanditiis, laborum fugiat
+                    ipsam impedit unde delectus. Quidem distinctio debitis, exercitationem animi vero amet, nesciunt
+                    laudantium porro corporis atque ex commodi eos.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center" data-aos="fade-left" data-aos-delay="500">
+                <img src="./Images/Lovepreneurship Nation App Icon 1.png" alt="About Us" class="img-fluid rounded w-75">
+            </div>
+        </div>
+    </section>
+    <section class="container my-5" id="Our Services">
+        <h2 class="text-center my-3">Our Services</h2>
+        <p class="text-center mb-3 fs-4">We offer a wide range of services to meet your needs. Explore our offerings
+            below:</p>
+        <div class="row gy-4 justify-content-center align-items-center my-4">
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-left" data-aos-delay="500">
+                <div class="card shadow">
+                    <img src="images/CHIP Flyers.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Training</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                data-aos-delay="500" data-aos-offset="0"> >
+                <div class="card shadow">
+                    <img src="images/Lovepreneurship Nation App Icon 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Technical Support Services</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-right" data-aos-delay="500">
+                <div class="card shadow">
+                    <img src="images/Lovepreneurship Blog.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Research and Development</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn"> Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-left" data-aos-delay="500">
+                <div class="card shadow">
+                    <img src="images/CHIP Flyers.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mentorship</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                data-aos-delay="500" data-aos-offset="0">
+                <div class="card shadow">
+                    <img src="images/Lovepreneurship Nation App Icon 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Grant Making</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" data-aos="zoom-in-right" data-aos-delay="500">
+                <div class="card shadow">
+                    <img src="images/CHIP Flyers.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Investments</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary readmore-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--FAQ-->
+    <section class="container my-5 pt-5" id="FAQ">
+        <h2 class="text-center my-3">Frequently Asked Questions</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        What Does NAME means?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>NAME is an acrostic for Noble Adventures for Mankind Empowerment.</strong> It is a
+                        non-governmental organization (NGO) that was established in 2014. The organization is committed
+                        to empowering individuals and communities through various initiatives and programs aimed at
+                        fostering sustainable development and improving the quality of life for marginalized
+                        populations.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Who is a Lovepreneur?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>A lovepreneur is one that work with Love to transform lives and nations from earth to
+                            heaven.</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        What is the LOVE Framework?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <p><strong>The LOVE framework is the mechanism of transformation of invisible human gifts and
+                                calling to invincible capital.</strong></p>
+                        <p>It is a four-step process that includes:</p> Light, Order, Value & Everlasting Life
+                        <p>Together, these four steps convert personal gifts into enduring, invincible capital for
+                            individuals, families, businesses, governments and nations .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        What does Heaven on Earth means?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <p><strong> Heaven on Earth is the highest quality of life in the highest quality of environment
+                                in eternity.</strong></p>
+                        <p>It is living a life of righteousness, peace and joy.</p> It is a life of abundance,
+                        prosperity and success.It is a life that eradicates darkness, bring order to chaos, create value
+                        in place of emptiness and poverty and ushers in everlasting prosperity in posterity
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container my-5" id="testimonials ">
+        <div class="div">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            Testimonials
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> I was introduced to NAME Foundation in 2022. Learning about lovepreneurship has been life transforming. I have discovered my gifts and calling and for the first time i can say i known what fulfilment feels like. 
+                            </p>
+                            <em class="d-block text-end">-John Awodu</em>
+                        </div>
+                        <div class="card-footer text-muted">
+                            2 days ago
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            Testimonials
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> I was introduced to NAME Foundation in 2022. Learning about lovepreneurship has been life transforming. I have discovered my gifts and calling and for the first time i can say i known what fulfilment feels like. 
+                            </p>
+                            <em class="d-block text-end">-Hannah Philip</em>
+                        </div>
+                        <div class="card-footer text-muted">
+                            8 days ago
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            Testimonials
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> I was introduced to NAME Foundation in 2022. Learning about lovepreneurship has been life transforming. I have discovered my gifts and calling and for the first time i can say i known what fulfilment feels like. 
+                            </p>
+                            <em class="d-block text-end">-Ogeche Okonkwo</em>
+                        </div>
+                        <div class="card-footer text-muted">
+                            10 days ago
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <!-- aos script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- initialise aos -->
+        <script>
+            AOS.init();
+        </script>
+</body>
+
+</html>

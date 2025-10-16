@@ -1,0 +1,41 @@
+.carousel-item {
+    height: 500px !important;
+}
+.carousel-item img {
+    object-fit: contain !important;
+    max-height: 100% !important; 
+    height: 100% !important;
+    width: 100% !important;
+}
+.card img {
+    height: 350px !important;
+    /* object-fit: contain !important; */
+}
+.accordion-button {
+    background-color: #F97602 !important;
+}
+.nav-link:hover{
+    color: #F97602 !important;
+}
+.search:hover{
+    background-color: #F97602 !important;
+    border-color: #F97602 !important;
+    color: white !important;
+}
+.search{
+    color: #F97602 !important;
+    border-color: #F97602 !important;
+}
+.readmore-btn{
+    background-color: #F97602 !important;
+    border-color: #F97602 !important;
+}
+.form-control:focus {
+    border-color: #F97602 !important;
+    box-shadow: 0 0 0 0.2rem rgba(249, 118, 2, 0.25) !important;
+}
+
+.card-header {background-color: #F97602 !important;
+    color: white !important;
+
+}
